@@ -15,6 +15,7 @@
         android:src="@drawable/img_bike"/>
 
     <EditText
+        android:id="@+id/edt_name"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -31,6 +32,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_noktp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -47,6 +49,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_email"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -63,6 +66,24 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:background="@null"
+        android:layout_marginBottom="12dp"/>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="0.7dp"
+        android:background="#d3d3d3"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_address"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -79,6 +100,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_password"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -95,6 +117,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_confirmation_password"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -111,6 +134,7 @@
         android:layout_marginBottom="32dp"/>
 
     <Button
+        android:id="@+id/btn_register"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="Register"
