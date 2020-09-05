@@ -15,6 +15,7 @@
         android:src="@drawable/img_bike"/>
 
     <EditText
+        android:id="@+id/edt_email"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -31,6 +32,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/edt_password"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
