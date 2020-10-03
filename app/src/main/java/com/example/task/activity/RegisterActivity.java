@@ -100,7 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
                 }
 
                 if (!isEmpty && !isInvalidPassword) {
-                    AndroidNetworking.post("http://192.168.43.21/rental_bike/register.php")
+                    AndroidNetworking.post("http://192.168.43.21/bike_rental/register.php")
                             .addBodyParameter("name", inputName)
                             .addBodyParameter("noktp", inputNoktp)
                             .addBodyParameter("email", inputEmail)

@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
                 if (!isEmpty) {
-                    AndroidNetworking.post("http://192.168.43.21/rental_bike/login.php")
+                    AndroidNetworking.post("http://192.168.43.21/bike_rental/login.php")
                             .addBodyParameter("email", email)
                             .addBodyParameter("password", password)
                             .setPriority(Priority.MEDIUM)
